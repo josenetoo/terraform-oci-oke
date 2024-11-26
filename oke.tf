@@ -54,7 +54,7 @@ resource "oci_containerengine_node_pool" "k8s_node_pool" {
   }
 
   node_source_details {
-    image_id    = "ocid1.image.oc1.sa-vinhedo-1.aaaaaaaaw4zkax67g6nvxh64jhmxbe45ftpzndbdj75xu5aittcyht6zv4aq" #Vinhedo
+    image_id    = "ocid1.image.oc1.sa-vinhedo-1.aaaaaaaajr4go3z67g6lmlgyjtjusulzcps2qjsu3cedqcjt3gpfszee57ca" #Vinhedo
     # image_id = "ocid1.image.oc1.phx.aaaaaaaa5celqitaplckhgfnxois4fnxohzkgy4igrfsd5rtkwu4qkyhkzia" #Phoenix
     # image_id = "ocid1.image.oc1.us-chicago-1.aaaaaaaaqj7qal5n7dd5jjsydx4k5rmprfqxmtpvib26qmb3dvi3waixpraa" #Chicago
     source_type = "image"
