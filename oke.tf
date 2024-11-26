@@ -46,7 +46,7 @@ resource "oci_containerengine_node_pool" "k8s_node_pool" {
     }    
   }
   
-  node_shape = "VM.Standard.E5.Flex"
+  node_shape = "VM.Standard.A1.Flex"
 
   node_shape_config {
     memory_in_gbs = var.node_memory
